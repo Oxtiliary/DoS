@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h2 {
+  font-family: monospace, monaco;
+  font-size: 36px;
+}
+
+h1 {
+  font-family: fantasy, copperplate;
+}
+
+p {
+  font-family: sans-serif, helvetica;
+  text
+}
+
+container{
+  text-align:center;
+}
+
+#viewing{
+  color:#28c328;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #bababa;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color:#28c328;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.text-btn{
+  color: #ca0202;
+  text-decoration: none;
+  border: none;
+  font-size: 17px;
+  background-color: #bababa;
+}
+
+.text-btn:hover{
+  color: #0a6b0a;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul li{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+}
+
+
+      .dropdown {
+        position: relative;
+      }
+
+      .dropdown ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        display: none;
+        padding: 20px;
+      }
+
+      .dropdown:hover ul {
+        display: block;
+      }
+
+      .dropdown li {
+        margin-right: 0;
+      }
+
+      .dropdown a {
+        padding: 10px;
+      }
+
+img{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+#cyber{
+  margin-left:auto;
+  margin-right:30%;
+}

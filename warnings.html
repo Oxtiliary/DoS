@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DoS&DDoS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <header>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="DoS&DDoS.html">Dos & DDos?</a></li>
+          <li><a id="viewing" href="warnings.html" >Warning Signs?</a></li>
+          <li><a href="damage.html">Damage Caused!</a></li>
+          <li><a href="prevention.html">Mitagtion/Prevention</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+      
+      <section>
+        <h1>What are the warning signs of a DoS & DDoS</h1>
+        <p>Here I will explain what to look out for and what types of methods DoS/DDoS attacker use to disable or hinder servers, websites, applications and other systems and what to look for if you suspect that your system is being used as a slave system for a hacker to attempt these attacks.</p>
+      </section>
+
+      <section>
+        <h2>Am I A Botnet!</h2>
+        
+        <p>Your computer could be compromised and being utilised by a hacker as part of their plans to attack a server with a DDoS assault. Some of the signs that your computer has been infected are:</p><br>
+        
+        <ul>
+          <li>Slow computer, High resource usage</li>
+          <li>Force shutdown with no hardware issues</li>
+          <li>Automatic windows updates disabled</li>
+          <li>Slow internet access</li>
+          <li>Browser changes and toolbar updates</li>
+          <li>Annoying pop-ups</li>
+        </ul> 
+        <br>
+        <p>If you are experiencing some or all of these then you may have to update windows, do a full virus scan and disable internet access to do a complete malware scan of your system.</p>
+      </section>
+
+      <section>
+        <h2>Can DoS and DDoS attacks be traced</h2>
+        
+        <p>It is very hard to trace and track a DDoS attack as there are many zombie computer all working together to attack a target server and network.<br>         
+        This is called a "botnet" and is what makes the DDoS much more effective than a DoS and that much harder to track. <br>The hacker commands this botnet from a remote computer, instructing them to deal damage in various ways. <br> I will list of some attack methods uses by DoS and DDoS attacker and this will let you understand what to look out for to know what attack is taking place if you are targeted by a DoS or DDoS attack. </p>
+      </section>
+<img src="assets/botnet.png" alt="Botnet" width="90%" height="80%">
+      
+      <section>
+        <h2>The more common forms of DoS & DDoS attacks</h2>
+        
+        <ul>
+          <li><strong>UDP Flood</strong> :This is a DDoS attack that flood random ports of a target network with (User Datagram Protocol) packets. overwhelming the network to slow down services.</li><br>
+          
+          <li><strong>ICMP (ping) FLood</strong> :This method takes advantage of a networks weaknesses, the attack deploys ICMP echo requests (pings) as fast as possible and cuts off communication before the request is answered. </li><br>
+          
+          <li><strong>SYN Flood</strong> :This type of attack uses another flaw in the way networks communicate. The TCP connection process works like this... a sender sends an SYN request to establish a TCP connection with a host. This must be met with an SYN-ACK response from the host. Then the sender must meet this SYN-ACK response with an ACK response. <br> So SYN to SYN-ACK to ACK. This is called the Three-Way-Handshake, and making use of this feature an attacker can send repeating SYN requests and not respond with an ACK or send SYN queries from a new IP address very quickly. <br> this will slow down and halt services on a network.</li><br>
+          
+          <li><strong>Ping of Death</strong> :How this works is easy and smart. The internet divides data sent from computers into small packets. When you send large quantities of data across the ethernet the data link-layer distributor breaks this data down into, typically 1500 bytes data packets and reassembles this data on the other end of the connection. With the maximum data packet on reassembly is 65,535 bytes a (Ping of Death) modifies data packets to be much more than this when it is received and reassembled and this can slow down, disrupt services, and overload and shut down websites.</li><br>
+          
+          <li><strong>Slowloris</strong> :This attack is a focused attack with the goal of bringing down a webserver without damaging any other component of the network. It does this by, basically trying to keep as many connections open as possible by not sending a complete request, thus forcing the webserver to remain open.</li><br>
+          
+          <li><strong>NTP Amplification Attack</strong> :The attacker using this method will exploit something called Network Time Protocol or NTP to flood the target network with UDP traffic.<br> NTP is publicly accessible, so the query-to-response ration can range from 1/20 to 1/200 or more so sending an attack through these server can cause catastrophic high-bandwidth. The attacker can acquire a list of open NTP server through tools such as Metasploit or data from the Open NTP project.</li><br>
+          
+          <li><strong>HTTP Flood</strong> :This is basically a high volume regular use of the internet sort of attack. It uses less bandwidth because there are no modified data packets, spoofing or reflections methods.</li>
+        </ul>
+        
+      </section>
+
+      <h2>Summary</h2>
+      
+      <p>After looking at these types of attacks you can see that the first thing you will notice when an attack happens is a spike in traffic that becomes more persistent and eventually the server, network or application will become slower, sluggish then crash. Having a well-prepared cyber defence and well-designed security configuration will go a long way in protecting your system from these types of attacks. Learn more about this on my <a href="prevention.html">
+        <button type="button" class="text-btn">Mitigation/prevention</button></a>  page. </p>
+
+      
+      
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 DoS&DDoS Website</p>
+      <container>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="DoS&DDoS.html">Dos & DDos?</a></li>
+          <li><a id="viewing" href="warnings.html">Warning Signs?</a></li>
+          <li><a href="damage.html">Damage Caused!</a></li>
+          <li><a href="prevention.html">Mitagtion</a></li>
+        </ul>
+      </nav>
+       </container>
+    </footer>
